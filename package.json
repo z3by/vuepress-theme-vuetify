@@ -1,0 +1,37 @@
+{
+  "name": "vuepress-theme-material",
+  "version": "1.1.4",
+  "description": "Vuepress docs theme using material Design System",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "enhanceAppFile.js",
+    "noopModule.js",
+    "styles",
+    "util",
+    "layouts",
+    "global-components",
+    "components"
+  ],
+  "scripts": {
+    "example:dev": "vuepress dev example/docs/",
+    "example:build": "vuepress build example/docs/"
+  },
+  "keywords": [
+    "vuepress",
+    "vuepress-theme",
+    "vuepress-docs",
+    "vuepress-theme-material",
+    "material design",
+    "vue"
+  ],
+  "author": {
+    "name": "Ahmad Mostafa",
+    "url": "https://ahmadmostafa.com/",
+    "email": "zoaby.am@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "vuepress": "^1.1.0"
+  }
+}
