@@ -4,7 +4,7 @@ Material design vuepress theme
 
 [![NPM version](https://badgen.net/npm/v/vuepress-theme-vuetify)](https://npmjs.com/package/vuepress-theme-vuetify) [![NPM downloads](https://badgen.net/npm/dt/vuepress-theme-vuetify)](https://npmjs.com/package/vuepress-theme-vuetify)
 
-## Demo [vuepress-theme-vuetify.netlify.com](vuepress-theme-vuetify.netlify.com)
+## [Demo](https://vuepress-theme-vuetify.netlify.com)
 
 ## Install
 
