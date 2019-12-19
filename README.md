@@ -1,8 +1,8 @@
-# vuepress-theme-material
+# vuepress-theme-vuetify
 
 Material design vuepress theme
 
-[![NPM version](https://badgen.net/npm/v/vuepress-theme-material)](https://npmjs.com/package/vuepress-theme-material) [![NPM downloads](https://badgen.net/npm/dt/vuepress-theme-material)](https://npmjs.com/package/vuepress-theme-material)
+[![NPM version](https://badgen.net/npm/v/vuepress-theme-vuetify)](https://npmjs.com/package/vuepress-theme-vuetify) [![NPM downloads](https://badgen.net/npm/dt/vuepress-theme-vuetify)](https://npmjs.com/package/vuepress-theme-vuetify)
 
 ## Sites
 
@@ -12,8 +12,8 @@ Material design vuepress theme
 ## Install
 
 ```bash
-yarn add vuepress-theme-material -D
-# OR npm install vuepress-theme-material -D
+yarn add vuepress-theme-vuetify -D
+# OR npm install vuepress-theme-vuetify -D
 ```
 
 ## Usage

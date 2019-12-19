@@ -1,7 +1,7 @@
 {
-  "name": "vuepress-theme-material",
+  "name": "vuepress-theme-vuetify",
   "version": "0.0.1",
-  "description": "Vuepress docs theme using material Design System",
+  "description": "Vuepress docs theme using vuetify",
   "main": "index.js",
   "files": [
     "index.js",
@@ -21,7 +21,7 @@
     "vuepress",
     "vuepress-theme",
     "vuepress-docs",
-    "vuepress-theme-material",
+    "vuepress-theme-vuetify",
     "material design",
     "vue"
   ],
