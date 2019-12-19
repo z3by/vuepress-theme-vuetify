@@ -1,5 +1,5 @@
 <template>
-  <main class="page">
+  <main class="py-5 px-4 page fill-height">
     <slot name="top" />
 
     <Content class="theme-default-content" />
@@ -20,12 +20,3 @@ export default {
   props: ['sidebarItems']
 }
 </script>
-
-<style lang="stylus">
-@require '../styles/wrapper.styl';
-
-.page {
-  padding-bottom: 2rem;
-  display: block;
-}
-</style>

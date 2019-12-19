@@ -1,6 +1,6 @@
 {
   "name": "vuepress-theme-material",
-  "version": "1.1.4",
+  "version": "0.0.1",
   "description": "Vuepress docs theme using material Design System",
   "main": "index.js",
   "files": [
@@ -32,6 +32,13 @@
   },
   "license": "MIT",
   "dependencies": {
-    "vuepress": "^1.1.0"
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "vuepress": "^1.1.0",
+    "vuetify": "^2.1.15",
+    "flexsearch": "^0.6.32"
+  },
+  "devDependencies": {
+    "@mdi/font": "^4.7.95"
   }
 }

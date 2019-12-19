@@ -1,14 +1,28 @@
 <template>
-  <div class="page-nav" v-if="prev || next">
+  <div
+    class="page-nav my-10"
+    v-if="prev || next"
+  >
     <p class="inner">
-      <span v-if="prev" class="prev">
-        ←
-        <router-link v-if="prev" class="prev" :to="prev.path">{{ prev.title || prev.path }}</router-link>
-      </span>
+      <v-btn
+        text
+        v-if="prev"
+        class="prev"
+        :to="prev.path"
+      >
+        <v-icon>mdi-arrow-left</v-icon>
+        {{ prev.title || prev.path }}
+      </v-btn>
 
-      <span v-if="next" class="next">
-        <router-link v-if="next" :to="next.path">{{ next.title || next.path }}</router-link>→
-      </span>
+      <v-btn
+        text
+        v-if="next"
+        class="next"
+        :to="next.path"
+      >
+        {{ next.title || next.path }}
+        <v-icon>mdi-arrow-right</v-icon>
+      </v-btn>
     </p>
   </div>
 </template>
@@ -97,24 +111,3 @@ function flatten (items, res) {
   }
 }
 </script>
-<style lang="stylus">
-@require '../styles/wrapper.styl';
-
-.page-nav {
-  @extend $wrapper;
-  padding-top: 1rem;
-  padding-bottom: 0;
-
-  .inner {
-    min-height: 2rem;
-    margin-top: 0;
-    border-top: 1px solid $borderColor;
-    padding-top: 1rem;
-    overflow: auto; // clear float
-  }
-
-  .next {
-    float: right;
-  }
-}
-</style>
