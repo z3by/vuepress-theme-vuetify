@@ -11,6 +11,7 @@
         item-text="title"
         :items="sidebarItems"
         dense
+        open-all
         hoverable
         open-on-click
         activatable
@@ -145,9 +146,13 @@ export default {
 
   methods: {
     updateActive (active) {
+      if (active[0] == undefined) return
       const path = active[0].replace('.html', '')
+
       this.$router.push(path)
     }
   }
 }
 </script>
+
+<style src="prismjs/themes/prism-okaidia.css"></style>

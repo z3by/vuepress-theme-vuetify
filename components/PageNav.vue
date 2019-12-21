@@ -1,30 +1,30 @@
 <template>
-  <div
-    class="page-nav my-10"
+  <v-row
+    class="my-7 mx-0"
     v-if="prev || next"
   >
-    <p class="inner">
-      <v-btn
-        text
-        v-if="prev"
-        class="prev"
-        :to="prev.path"
-      >
-        <v-icon>mdi-arrow-left</v-icon>
-        {{ prev.title || prev.path }}
-      </v-btn>
+    <v-btn
+      text
+      small
+      v-if="prev"
+      class="mr-auto"
+      :to="prev.path"
+    >
+      <v-icon>mdi-arrow-left</v-icon>
+      {{ prev.title || prev.path }}
+    </v-btn>
 
-      <v-btn
-        text
-        v-if="next"
-        class="next"
-        :to="next.path"
-      >
-        {{ next.title || next.path }}
-        <v-icon>mdi-arrow-right</v-icon>
-      </v-btn>
-    </p>
-  </div>
+    <v-btn
+      text
+      small
+      v-if="next"
+      class="ml-auto"
+      :to="next.path"
+    >
+      {{ next.title || next.path }}
+      <v-icon>mdi-arrow-right</v-icon>
+    </v-btn>
+  </v-row>
 </template>
 <script>
 import { resolvePage } from '../util'

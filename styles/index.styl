@@ -13,14 +13,45 @@ body {
 
 .page {
   h1 {
-    margin: 2rem auto;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid lightgray;
   }
 
   h2 {
-    margin: 1rem auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    line-height: 2;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  .header-anchor {
+    opacity: 0 !important;
+    position: absolute;
+    left: 0.5rem;
+    width: 100%;
+  }
+
+  &:hover {
+    .header-anchor {
+      opacity: 1 !important;
+    }
   }
 }
 
 a {
   text-decoration: none;
+}
+
+.v-application code {
+  background: #272822;
+  box-shadow: none;
+  color: white;
+}
+
+.v-application--is-ltr .v-treeview-node--leaf {
+  margin-left: 0;
 }

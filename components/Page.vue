@@ -1,13 +1,13 @@
 <template>
-  <main class="py-5 px-4 page fill-height">
-    <slot name="top" />
+  <main class="ma-4 page fill-height">
+    <v-card class="px-7 py-3">
+      <slot name="top" />
 
-    <Content class="theme-default-content" />
+      <Content class="theme-default-content" />
+      <slot name="bottom" />
+    </v-card>
     <PageEdit />
-
     <PageNav v-bind="{ sidebarItems }" />
-
-    <slot name="bottom" />
   </main>
 </template>
 

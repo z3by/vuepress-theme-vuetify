@@ -36,7 +36,7 @@ export default {
 
   watch: {
     search (val) {
-      val && val.length > 2 && val !== this.select && this.querySelections(val)
+      val && val.length > 1 && val !== this.select && this.querySelections(val)
     },
 
     select (val) {
